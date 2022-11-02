@@ -1,5 +1,5 @@
 // program to check if the string is palindrome or not
-
+const prompt=require("prompt-sync")();
 function checkPalindrome(string) {
   // find the length of a string
   const len = string.length;
@@ -15,7 +15,7 @@ function checkPalindrome(string) {
 }
 
 // take input
-const string = "abcdcba";
+const string = prompt("enter a string : ");
 
 // call the function
 const value = checkPalindrome(string);
